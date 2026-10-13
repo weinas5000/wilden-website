@@ -1,0 +1,30 @@
+.home-reference .site-header { padding: 26px 0; }
+.home-reference .brand .brand-window { display: block; position: relative; width: 260px; aspect-ratio: 4096 / 1048; overflow: hidden; }
+.home-reference .brand .brand-window img { position: absolute; top: 0; left: 0; width: 100%; max-width: none; height: auto; transform: translateY(-63.20224719101124%); }
+.home-reference .hero { padding-top: 90px; }
+@media (max-width: 1050px) {
+  .home-reference .brand .brand-window { width: 230px; }
+  .home-reference .site-header { gap: 18px; padding: 22px 0; }
+}
+@media (max-width: 760px) {
+  .home-reference .brand .brand-window { width: 232px; }
+  .home-reference .site-header { gap: 12px; padding: 20px 0 12px; }
+  .home-reference .hero { padding-top: 26px; }
+}
+@media (max-width: 360px) {
+  .home-reference .brand .brand-window { width: 220px; }
+}
+
+
+.home-reference .wild-title-group { position: absolute; top: 15%; left: 15%; width: 70%; text-align: center; }
+.home-reference .wild-title-group #wild-title { position: static; width: 71.4285714286%; margin: 0 auto; }
+.home-reference .wild-subtitle { margin: 12px 0 0; font-family: "Songti SC", "STSong", serif; font-size: clamp(14px, 1.2vw, 18px); font-weight: 500; line-height: 1.6; letter-spacing: .12em; color: #182218; }
+@media (max-width: 760px) {
+  .home-reference .site-header .brand { margin-inline: auto; }
+  .home-reference .wild-title-group { top: 13%; left: 10%; width: 80%; }
+  .home-reference .wild-title-group #wild-title { width: 71.25%; }
+  .home-reference .wild-subtitle { margin-top: 9px; font-size: 14px; letter-spacing: .1em; }
+}
+
+.home-reference .edition { min-width: 142.703125px; justify-content: flex-end; }
+@media (max-width: 1050px) { .home-reference .edition { min-width: 132.140625px; } }
