@@ -1,0 +1,9 @@
+/* 本页沿用官网共享样式；仅补充双语入口和长文排版。 */
+.language-switch{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:24px 0 0}
+.language-switch a{display:inline-flex;align-items:center;justify-content:center;min-width:86px;min-height:44px;padding:7px 14px;border:1px solid var(--line);text-decoration:none;font-size:14px}
+.language-switch a[aria-current="page"]{background:var(--gold);border-color:var(--gold);font-weight:600}
+.policy-note{border-left:3px solid var(--gold);padding:16px 20px;background:rgba(247,198,40,.13);margin:24px 0}
+.policy-note p{margin:0}
+.policy section{scroll-margin-top:32px}
+.policy p{max-width:72ch}
+@media(max-width:640px){.language-switch{margin-top:20px}.policy-note{padding:14px 16px}}
