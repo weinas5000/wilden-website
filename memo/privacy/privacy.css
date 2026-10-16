@@ -7,3 +7,17 @@
 .policy section{scroll-margin-top:32px}
 .policy p{max-width:72ch}
 @media(max-width:640px){.language-switch{margin-top:20px}.policy-note{padding:14px 16px}}
+
+/* 隔离预览：沿用已发布首页的紧凑品牌组合，只作用于本目录的双语政策页。 */
+.memo-privacy-preview .site-header{padding:26px 0}
+.memo-privacy-preview .brand{display:flex;flex-direction:column;align-items:center;justify-content:center;text-decoration:none}
+.memo-privacy-preview .brand img{width:200px;height:auto}
+.memo-privacy-preview .brand-tagline{font-family:Georgia,serif;font-size:9px;line-height:1;letter-spacing:.14em;margin-top:3px;white-space:nowrap}
+@media(max-width:640px){
+  .memo-privacy-preview .site-header{padding:16px 0 10px}
+  .memo-privacy-preview .site-header .brand{margin-inline:auto}
+  .memo-privacy-preview .brand img{width:184px}
+  .memo-privacy-preview .nav{margin-top:8px}
+  .memo-privacy-preview .page-head{padding-top:24px}
+}
+@media(max-width:360px){.memo-privacy-preview .brand img{width:170px}}
